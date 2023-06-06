@@ -1,0 +1,10 @@
+.group {
+    width: 656px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 32px;
+    position: relative;
+    z-index: 1;
+}

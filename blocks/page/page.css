@@ -1,0 +1,11 @@
+.page {
+    max-width: 1280px;                      /*largura máxima do site*/
+    margin: 0 auto;                         /*Tudo fica centralizado*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2A2C2F;
+    padding: 0;
+    box-sizing: border-box;
+}

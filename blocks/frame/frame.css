@@ -1,0 +1,14 @@
+.frame {
+    width: 355px;
+    height: 48px;
+    background-color: #0278FE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    grid-area: frame;
+}
+
+.frame:hover {
+    cursor: url(/images/Imported\ Layers\ Copy\ 4.png), auto;
+}

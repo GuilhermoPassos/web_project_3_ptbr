@@ -1,0 +1,29 @@
+.cover {
+    width: 92.5%;
+    height: 740px;
+    margin-bottom: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../images/__background.png);
+}
+
+.cover:hover {
+    opacity: .3;
+    cursor: url(/images/Vector\ 1.png), auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .cover {
+        width: 100%;
+        margin-top: 92px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .cover {
+        width: 100%;
+        margin-top: 64px;
+    }
+}

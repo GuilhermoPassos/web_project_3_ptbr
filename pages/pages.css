@@ -1,0 +1,56 @@
+/*Bloco normalize*/
+@import url('../vendor/normalize.css');
+
+/*bloco base*/
+@import url('../blocks/page/page.css');
+
+/*bloco fontes*/
+@import url('../fonts/Inter-web/inter.css');
+
+/*Bloco header*/
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/logo_place_header/logo_place_header.css');
+
+/*Bloco lead*/
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/lead/__title/lead__title.css');
+@import url('../blocks/lead/__subtitle/lead__subtitle.css');
+@import url('../blocks/lead/__image/lead__image.css');
+
+/*Bloco intro*/
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__author/intro__author.css');
+@import url('../blocks/intro/__description/intro__description.css');
+@import url('../blocks/intro/__text/intro__text.css');
+@import url('../blocks/intro/__title/intro__title.css');
+
+/*Bloco photo-grid*/
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/photo-grid/__img/photo-grid__img.css');
+
+/*Bloco places*/
+@import url('../blocks/places/places.css');
+@import url('../blocks/place/place.css');
+@import url('../blocks/place/__artist/place__artist.css');
+@import url('../blocks/place/__image/place__image.css');
+@import url('../blocks/place/__paragraph/place__paragraph.css');
+@import url('../blocks/place/__text/place__text.css');
+@import url('../blocks/place/__title/place__title.css');
+@import url('../blocks/place/__url-heading/place__url-heading.css');
+@import url('../blocks/place/__website/place__website.css');
+
+/*Bloco frame*/
+@import url('../blocks/frame/frame.css');
+@import url('../blocks/frame/__paragraph/frame__paragraph.css');
+
+/*bloco cover*/
+@import url('../blocks/cover/cover.css');
+
+/*Bloco group*/
+@import url('../blocks/group/group.css');
+@import url('../blocks/group/__subtitle/group__subtitle.css');
+@import url('../blocks/group/__title/group__title.css');
+
+/*Bloco footer*/
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
