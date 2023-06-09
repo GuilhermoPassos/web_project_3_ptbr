@@ -14,7 +14,7 @@
     .place {
         column-gap: 28px;
         row-gap: 48px;
-        margin-left: 24px;
+        
     }
 }
 
@@ -22,7 +22,9 @@
     .place {
         display: flex;
         flex-direction: column;
+        align-items: center;
         row-gap: 30px;
-        margin-left: 16px;
+        
+        width: 288px;
     }
 }

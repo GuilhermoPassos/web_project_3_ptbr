@@ -12,3 +12,10 @@
 .frame:hover {
     cursor: url(/images/Imported\ Layers\ Copy\ 4.png), auto;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .frame {
+        width: 288px;
+        
+    }
+}

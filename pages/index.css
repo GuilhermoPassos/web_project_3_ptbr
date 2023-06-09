@@ -30,6 +30,9 @@
 
 /*Bloco places*/
 @import url('../blocks/places/places.css');
+@import url('../blocks/places/__list/places__list.css');
+
+/*Bloco place*/
 @import url('../blocks/place/place.css');
 @import url('../blocks/place/__artist/place__artist.css');
 @import url('../blocks/place/__image/place__image.css');
