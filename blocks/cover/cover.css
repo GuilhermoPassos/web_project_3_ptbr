@@ -1,5 +1,5 @@
 .cover {
-    background-image: url(../../images/__background.png);
+    background-image: url('../../images/__background.png');
     width: 1184px;
     height: 740px;
     margin-bottom: 92px;
@@ -11,7 +11,7 @@
 
 .cover:hover {
     opacity: .3;
-    cursor: url(/images/Vector\ 1.png), auto;
+    cursor: url(/images/Vector1.png), auto;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
