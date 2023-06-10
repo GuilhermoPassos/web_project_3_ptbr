@@ -1,5 +1,8 @@
 .cover {
     background-image: url('../../images/__background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: .8;
     width: 1184px;
     height: 740px;
     margin-bottom: 92px;
@@ -7,12 +10,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: opacity 0.5s ease;
 }
 
 .cover:hover {
     opacity: .3;
     cursor: url('/images/Vector1.png'), auto;
 }
+
+
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
     .cover {
@@ -21,7 +27,23 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .cover {
+        width: 100%;
+        height: 746px;
+        margin-top: 88px;
+    }
+}
+
+@media screen and (min-width:350px) and (max-width: 424px) {
+    .cover {
+        width: 100%;
+        height: 480px;
+        margin-top: 88px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 349px) {
     .cover {
         width: 100%;
         height: 220px;
